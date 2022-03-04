@@ -21,4 +21,4 @@ jobs:
           cache: 'npm'
       - run: npm install
       - run: npm install -g --save-dev javascript-obfuscator   
-      - run: javascript-obfuscator js/porovnavac.js js/porovnavac_min.js
+      - run: javascript-obfuscator js/porovnavac.js --output js/porovnavac_min.js
